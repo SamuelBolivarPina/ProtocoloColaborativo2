@@ -1,0 +1,12 @@
+package ejercicio3;
+
+public class Gerente extends Empleado{
+    // Atributo específico de la clase Gerente
+    public String departamento;
+
+    // Constructor de Gerente
+    public Gerente(String nombre, double salario, String departamento) {
+        super(nombre, salario); // Llama al constructor de la clase base
+        this.departamento = departamento;
+    }
+}
