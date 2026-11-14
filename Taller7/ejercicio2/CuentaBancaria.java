@@ -19,4 +19,11 @@ public class CuentaBancaria {
             this.saldo = saldo;
         }
     }
+    // Metodo public para mostrar detalles de la cuenta
+    public void mostrarDetalles() {
+        System.out.println("Tipo de Cuenta: " + tipoCuenta);
+        System.out.println("Saldo actual: $" + saldo);
+        // Nota: numeroCuenta es privado, pero la misma clase sí puede acceder a él internamente:
+        System.out.println("Nro de Cuenta (interno): " + numeroCuenta);
+    }
 }
