@@ -2,7 +2,7 @@ package ejercicio3;
 
 public class Gerente extends Empleado {
     // Atributo específico de la clase Gerente
-    public String departamento;
+    private String departamento;
 
     // Constructor de Gerente
     public Gerente(String nombre, double salario, String departamento) {

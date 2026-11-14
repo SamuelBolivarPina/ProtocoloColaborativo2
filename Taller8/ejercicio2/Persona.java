@@ -1,8 +1,8 @@
 package ejercicio2;
 
 public class Persona {
-    public String nombre;
-    public int edad;
+    protected String nombre;
+    protected int edad;
 
     public Persona(String nombre, int edad){
         this.nombre = nombre;
