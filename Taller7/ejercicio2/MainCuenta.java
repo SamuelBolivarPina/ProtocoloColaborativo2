@@ -1,3 +1,4 @@
+/*
 package ejercicio2;
 
 public class MainCuenta {
@@ -7,9 +8,10 @@ public class MainCuenta {
         System.out.println("Tipo: " + cuenta.tipoCuenta);
         // Usando métodos públicos seguros
         cuenta.mostrarDetalles();
-        /*
+
         ¿Por qué falla? Porque 'numeroCuenta' es private y no se puede
          * acceder directamente desde fuera de la clase CuentaBancaria.
-         */
+
     }
 }
+*/
