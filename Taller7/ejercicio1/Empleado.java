@@ -6,7 +6,7 @@ public class Empleado {
 
     public Empleado(String nombre, double salario){
         this.nombre = nombre;
-        getSalario(salario);
+        setSalario(salario);
     }
 
  public double getSalario(){
