@@ -6,4 +6,8 @@ public class Coche extends Vehiculo{
         super(marca,velocidadMaxima);
         this.numeroPuertas = numeroPuertas;
     }
+    public void mostrarCoche(){
+        motrarInformacion();
+        System.out.println("Número de Puertas :" + numeroPuertas);
+    }
 }
