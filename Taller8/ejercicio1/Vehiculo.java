@@ -8,4 +8,8 @@ public class Vehiculo {
         this.marca = marca;
         this.velocidadMaxima = velocidadMaxima;
     }
+    public void motrarInformacion(){
+        System.out.println("Marca: " + marca);
+        System.out.println("Velocidad Máxima: " + velocidadMaxima + " km/h");
+    }
 }
