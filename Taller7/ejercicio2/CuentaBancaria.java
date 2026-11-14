@@ -10,4 +10,13 @@ public class CuentaBancaria {
         this.saldo = saldo;
         this.tipoCuenta = tipoCuenta;
     }
+    // Métodos públicos get y set para saldo
+    public double getSaldo() {
+        return saldo;
+    }
+    public void setSaldo(double saldo) {
+        if (saldo >= 0) {
+            this.saldo = saldo;
+        }
+    }
 }
